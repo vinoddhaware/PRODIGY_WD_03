@@ -1,0 +1,79 @@
+.cartoon-x {
+    font-size: 100px; /* Size of the X */
+    font-weight: bold;
+    color: #ef3131; /* Tomato color */
+    text-shadow: 
+      -4px -4px 0 #FFD700,  /* Top-left shadow (Yellow) */
+      4px -4px 0 #FF4500,   /* Top-right shadow (OrangeRed) */
+      -4px 4px 0 #1E90FF,   /* Bottom-left shadow (DodgerBlue) */
+      4px 4px 0 #32CD32;    /* Bottom-right shadow (LimeGreen) */
+    font-family: 'Comic Sans MS', 'Chalkboard', cursive;
+}
+
+.cartoon-o {
+    font-size: 100px; /* Size of the O */
+    font-weight: bold;
+    color: #32CD32; /* LimeGreen color */
+    text-shadow: 
+      -4px -4px 0 #FFD700,  /* Top-left shadow (Yellow) */
+      4px -4px 0 #FF4500,   /* Top-right shadow (OrangeRed) */
+      -4px 4px 0 #1E90FF,   /* Bottom-left shadow (DodgerBlue) */
+      4px 4px 0 #FF69B4;    /* Bottom-right shadow (HotPink) */
+    font-family: 'Comic Sans MS', 'Chalkboard', cursive;
+  }
+
+  .x-shape {
+    --color: #ef3131;
+    --l: 20px; /* line-width */
+    width: 70px;
+    height: 70px;
+    background: 
+    linear-gradient(to top right, transparent calc(50% - var(--l) / 2), var(--color) calc(50% - var(--l) / 2) calc(50% + var(--l) / 2), transparent calc(50% + var(--l) / 2)),
+    linear-gradient(to bottom right, transparent calc(50% - var(--l) / 2), var(--color) calc(50% - var(--l) / 2) calc(50% + var(--l) / 2), transparent calc(50% + var(--l) / 2));
+                
+    --clip-path: polygon(var(--l) 0%, calc(100% - var(--l)) 0%, 100% var(--l), 100% calc(100% - var(--l)), calc(100% - var(--l)) 100%, var(--l) 100%, 0% calc(100% - var(--l)), 0% var(--l));
+    -webkit-clip-path: var(--clip-path);
+            clip-path: var(--clip-path);
+  }
+
+  :root {
+    --o-size: 70px;       /* Size of the "O" */
+    --o-color: #32CD32;    /* Color of the "O" */
+    --border-thickness: 20px; /* Thickness of the "O" border */
+  }
+  .o-shape {
+    width: var(--o-size);
+    height: var(--o-size);
+    border-radius: 50%;
+    text-shadow: var(--color);
+    border: var(--border-thickness) solid var(--o-color);
+    background-color: var(--background-color);
+    box-sizing: border-box;
+  }
+  
+  
+  .draw{
+    --color: #ef3131;
+    --l: 10px; /* line-width */
+    width: 70px;
+    height: 70px;
+    background: 
+    linear-gradient(to top right, transparent calc(50% - var(--l) / 2), var(--color) calc(50% - var(--l) / 2) calc(50% + var(--l) / 2), transparent calc(50% + var(--l) / 2)),
+    linear-gradient(to bottom right, transparent calc(50% - var(--l) / 2), var(--color) calc(50% - var(--l) / 2) calc(50% + var(--l) / 2), transparent calc(50% + var(--l) / 2));
+                
+    --clip-path: polygon(var(--l) 0%, calc(100% - var(--l)) 0%, 100% var(--l), 100% calc(100% - var(--l)), calc(100% - var(--l)) 100%, var(--l) 100%, 0% calc(100% - var(--l)), 0% var(--l));
+    -webkit-clip-path: var(--clip-path);
+    clip-path: var(--clip-path);
+    
+    --o-size: 70px;       /* Size of the "O" */
+    --o-color: #32CD32;    /* Color of the "O" */
+    --border-thickness: 10px; /* Thickness of the "O" border */
+    
+    width: var(--o-size);
+    height: var(--o-size);
+    border-radius: 50%;
+    text-shadow: var(--color);
+    border: var(--border-thickness) solid var(--o-color);
+    background-color: var(--background-color);
+    box-sizing: border-box;
+ }
