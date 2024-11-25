@@ -7,15 +7,15 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: '/PRODIGY_WD_03/',
       element: <Home />
     },
     {
-      path: '/Player1',
+      path: '/PRODIGY_WD_03/Player1',
       element: <Player1 />
     },
     {
-      path: '/Player2',
+      path: '/PRODIGY_WD_03/Player2',
       element: <Player2 />
     }
   ])

@@ -45,10 +45,10 @@ const Home = () => {
                 </div>
                 <div className='flex justify-center'>
                 <div className='flex flex-col mt-6 '>
-                    <NavLink to='/player1'>
+                    <NavLink to='/PRODIGY_WD_03/player1'>
                     <button  className="h-12 w-40 my-3 active:scale-90 duration-300 ease-out rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] font-medium text-white transition-all focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">1 Player</button>
                     </NavLink>
-                    <NavLink to='/Player2'>
+                    <NavLink to='/PRODIGY_WD_03/Player2'>
                     <button className="h-12 w-40 active:scale-90 duration-300 ease-out rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] font-medium text-white transition-all focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">2 Players</button>
                     </NavLink>
                 </div>
