@@ -5,7 +5,23 @@
     <link rel="icon" type="image/svg+xml" href="/PRODIGY_WD_03/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Let's Play Tic Tac Toe Game</title>
-    <script type="module" crossorigin src="/PRODIGY_WD_03/assets/index-pJK8nssf.js"></script>
+
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
+
+    <script type="module" crossorigin src="/PRODIGY_WD_03/assets/index-Hg3lc8Bc.js"></script>
     <link rel="stylesheet" crossorigin href="/PRODIGY_WD_03/assets/index-DQ7MVPyH.css">
   </head>
   <body>
