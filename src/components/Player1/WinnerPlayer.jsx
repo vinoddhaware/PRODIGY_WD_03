@@ -16,7 +16,7 @@ const WinnerPlayer = ({isVisible, winner, isPlayer1, playAgain, boxes}) => {
             <div className='flex flex-col justify-center items-center mt-10 mb-10 space-y-5
             '>
             <button onClick={playAgain} className='h-10 w-40  active:scale-90 duration-300 ease-out rounded-md border hover:bg-white/50 border-yellow-700 bg-gradient-to-b from-blue-900 font-medium text-white transition-all focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50'> PLAY AGAIN </button>
-            <NavLink to='/'>
+            <NavLink to='/PRODIGY_WD_03/'>
             <button className='h-10 w-40  active:scale-90 duration-300 ease-out rounded-md border hover:bg-white/50 border-yellow-700 bg-gradient-to-b from-blue-900 font-medium text-white transition-all focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50'> GO BACK </button>
             </NavLink>
             </div>
