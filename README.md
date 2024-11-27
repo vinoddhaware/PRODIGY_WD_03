@@ -1,3 +1,3 @@
 <h1> TIC TAC TOE </h1> 
 
-![WhatsApp Image 2024-11-27 at 1 33 17 PM](https://github.com/user-attachments/assets/d7b3e769-0ba0-4e5d-8a81-5fe6fa602439)
+![tictactoe-thumb](https://github.com/user-attachments/assets/4c58bb04-bd6f-44ca-8cb6-dc5d1ab38997)
